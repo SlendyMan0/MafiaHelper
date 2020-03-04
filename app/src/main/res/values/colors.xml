@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF202020</color>
+    <color name="colorPrimaryDark">#FF000000</color>
+    <color name="colorAccent">#FFB71C1C</color>
+
+    <color name="windowBackground">#353535</color>
+
+    <color name="black_background">#FF000000</color>
+    <color name="grey_background_lighter">#414141</color>
+    <color name="grey_background_darker">#252525</color>
+
+    <color name="grey_border">#151515</color>
+    <color name="grey_selected">#2B2B2B</color>
+    <color name="invisible">#00FFFFFF</color>
+
+    <color name="text_fading">#AAFFFFFF</color>
+    <color name="text_normal">#FFFFFFFF</color>
+
+</resources>

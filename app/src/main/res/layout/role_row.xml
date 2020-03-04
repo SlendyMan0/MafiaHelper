@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/row_actions"
+
+    android:layout_width="match_parent"
+    android:layout_height="33dp">
+
+    <ImageView
+        android:id="@+id/image_row_role"
+
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="1dp"
+
+        android:background="@color/windowBackground"
+
+        tools:src="@drawable/judge" />
+
+    <TextView
+        android:id="@+id/text_row_short_name"
+
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="1dp"
+
+        android:paddingStart="2dp"
+        android:paddingEnd="0dp"
+
+        android:background="@color/windowBackground"
+
+        android:gravity="center"
+
+        android:includeFontPadding="false"
+        android:textSize="@dimen/role_text_size"
+        android:textColor="@color/text_fading"
+        android:fontFamily="@font/unfunnyfont"
+
+        tools:text="YAN" />
+
+    <TextView
+        android:id="@+id/text_row_number"
+
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+
+        android:paddingStart="2dp"
+        android:paddingEnd="0dp"
+
+        android:background="@color/grey_background_darker"
+
+        android:gravity="center"
+
+        android:includeFontPadding="false"
+        android:textSize="@dimen/role_text_size"
+        android:textColor="@color/text_fading"
+        android:fontFamily="@font/unfunnyfont"
+
+        tools:text="20" />
+
+</TableRow>

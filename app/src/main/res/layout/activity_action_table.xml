@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context=".activities.ActionTableActivity" >
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_weight="1"
+
+        android:scrollbars="none"
+        android:overScrollMode="never" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingEnd="1dp"
+            android:paddingStart="0dp"
+            android:paddingTop="1dp"
+
+            android:orientation="vertical"
+
+            android:background="@color/black_background" >
+
+            <include
+                android:id="@+id/row_header"
+
+                layout="@layout/role_row" />
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:paddingTop="1dp"
+
+                android:scrollbars="none"
+                android:overScrollMode="never" >
+
+                <TableLayout
+                    android:id="@+id/table_actions"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </android.support.v4.widget.NestedScrollView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/button_confirm_roles"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:minHeight="64dp"
+
+        android:layout_gravity="center"
+
+        android:gravity="center"
+
+        android:background="?attr/selectableItemBackground"
+
+        android:onClick="newNight"
+
+        android:fontFamily="@font/unfunnyfont"
+        android:text="@string/chooseRoles"
+        android:textSize="@dimen/normal_text_size" />
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">unfunnyMafia</string>
+
+    <string name="all">Razem</string>
+
+    <!-- ROLE -->
+
+    <string name="godfather">Ojciec Chrzestny</string>
+    <string name="trapmaster">Mistrz Pułapek</string>
+    <string name="poisoner">Truciciel</string>
+    <string name="prostitute">Striptizerka</string>
+    <string name="mafioso">Cyngiel</string>
+
+    <string name="bodyguard">Ochroniarz</string>
+    <string name="detective">Detektyw</string>
+    <string name="doctor">Lekarz</string>
+    <string name="judge">Sędzia</string>
+    <string name="nun">Zakonnica</string>
+    <string name="survivalist">Kuloodporny</string>
+    <string name="veteran">Weteran</string>
+    <string name="vigilante">Emerytowany Glina</string>
+
+    <string name="accuser">Krzykacz</string>
+    <string name="amnesiac">Zapomniany</string>
+    <string name="arsonist">Podpalacz</string>
+    <string name="jester">Błazen</string>
+    <string name="serialkiller">Seryjny Zabójca</string>
+    <string name="witch">Wiedźma</string>
+    <string name="yandere">Yandere</string>
+
+
+    <!-- SHORT ROLES -->
+
+    <string name="godfatherShort">OC</string>
+    <string name="trapmasterShort">MP</string>
+    <string name="poisonerShort">TRU</string>
+    <string name="prostituteShort">STR</string>
+    <string name="mafiosoShort">CYN</string>
+
+    <string name="bodyguardShort">OCH</string>
+    <string name="detectiveShort">DET</string>
+    <string name="doctorShort">LEK</string>
+    <string name="judgeShort">SĘ</string>
+    <string name="nunShort">ZAK</string>
+    <string name="survivalistShort">OCA</string>
+    <string name="veteranShort">WET</string>
+    <string name="vigilanteShort">EG</string>
+
+    <string name="accuserShort">KRZ</string>
+    <string name="amnesiacShort">ZAP</string>
+    <string name="arsonistShort">POD</string>
+    <string name="jesterShort">BŁA</string>
+    <string name="serialkillerShort">SZ</string>
+    <string name="witchShort">WIE</string>
+    <string name="yandereShort">YAN</string>
+
+
+    <!-- ROLES DESCRIPTION -->
+
+    <string name="godfatherDescription">Wybiera jedną osobę w nocy do skasowania przez cyngla. Jeśli zostanie wytypowany i zabity w trakcie dnia, następnej nocy mafia dokonuje vendetty i zabija dwie osoby.</string>
+    <string name="trapmasterDescription">Chooses one person to trap at night. If that person will be visited by anyone else, first visitor in the queue will die. Action has one night cooldown, active at the start of the game.</string>
+    <string name="poisonerDescription">Chooses one person to poison at night. If that person will not be healed this or next night, that person will die.</string>
+    <string name="prostituteDescription">Chooses one person to block action at night. Action of such person will be blocked, with exception of roles that are actively waiting for a visit.</string>
+    <string name="mafiosoDescription">Carries out the hit assigned by godfather. If godfather dies, he chooses one person to kill at night and carries ot the hit.</string>
+
+    <string name="bodyguardDescription">Chooses one person to protect at night. If that person is attacked, bodyguard is killed instead. When killed by protecting his target, the heals are ineffective.</string>
+    <string name="detectiveDescription">Chooses one person to investigate at night. If his target is either from mafia or killing neutral, he is informed that his target is suspicious.</string>
+    <string name="doctorDescription">Chooses one person to heal at night. Healed target does not die, if targeted by normal killing action (some roles are unstoppable) and also cures poison. He can heal himself just once. His action does not work if bodyguard dies actively protecting someone.</string>
+    <string name="judgeDescription">Chooses to reveal himself at day. From this point on, his votes count as three, and all draws are now his win. Game Master confirms his reveal.</string>
+    <string name="nunDescription">Chooses one person to block action at night. Action of such person will be blocked, with exception of roles that are actively waiting for a visit.</string>
+    <string name="survivalistDescription">Twice during a game chooses at night if he wants to don his survival vest, becoming immune to all kill actions.</string>
+    <string name="veteranDescription">Chooses to kill first visitor in a queue at the night. His action can be however blocked.</string>
+    <string name="vigilanteDescription">Can choose one person to kill at night. If he kills person from town, dies from guilt next night, without taking the action.</string>
+
+    <string name="accuserDescription">Chooses one person first night. From now on, his goal is to lead to death his target during day voting. If chosen target dies at night, converts to Jester.</string>
+    <string name="amnesiacDescription">Chooses one person that is dead at night and converts to that person role. From now on, he plays as that role. Role chosen is announced by Game Master.</string>
+    <string name="arsonistDescription">Chooses either to dose one person with gasoline or to set ablaze all dosed at night. Wins if last person beside him dies from burning.</string>
+    <string name="jesterDescription">His goal is to die during day vote.</string>
+    <string name="serialkillerDescription">Chooses one person to kill at night. If he is blocked, kills the person blocking him. Wins if last one alive.</string>
+    <string name="witchDescription">Chooses one person to take control of and then changes his target to the target of her own choosing. After her action, she is informed silently about role of her controlled puppet.</string>
+    <string name="yandereDescription">Chooses one person first night. From now on, her target is her Senpai. Nobody is allowed to visit her Senpai and as such she kills them with unblockable attack. Can be blocked. If her Senpai dies, she dies as well next night, after killing a person of her choosing.</string>
+
+
+    <!-- ROLES FLAVOUR-->
+
+    <string name="godfatherFlavour">Godfather chooses a target to eliminate:</string>
+    <string name="trapmasterFlavour">Trap Master set his trap at the home of:</string>
+    <string name="poisonerFlavour">Poisoner tips his bottle in the food of:</string>
+    <string name="prostituteFlavour">Prostitute decides that for this night of fun she visits:</string>
+    <string name="mafiosoFlavour">Mafioso carries out the hit.</string>
+
+    <string name="bodyguardFlavour">Bodyguard decides that he wants to protect:</string>
+    <string name="detectiveFlavour">Detective investigates home of:</string>
+    <string name="doctorFlavour">Doctor prepares the operation of:</string>
+    <string name="judgeFlavour">Judge sleeps soundly.</string>
+    <string name="nunFlavour">Nun decides to pray the rosary with:</string>
+    <string name="survivalistFlavour">Survivalist looks at his vest and decides if he wants to don it.</string>
+    <string name="veteranFlavour">Veteran polishes his shotgun and decides if he wants to sleep with it.</string>
+    <string name="vigilanteFlavour">Vigilante decides to bring justice to:</string>
+
+    <string name="accuserFlavour">Accuser chooses his target:</string>
+    <string name="amnesiacFlavour">Amnesiac tries to remember… He was…</string>
+    <string name="arsonistFlavour">Arsonist prepares his gasoline to dose:</string>
+    <string name="jesterFlavour">Jester sits patiently.</string>
+    <string name="serialkillerFlavour">Serial Killer stalks and kills:</string>
+    <string name="witchFlavour">Witch prepares her spell and controls:</string>
+    <string name="yandereFlavour">Yandere looks for her Senpai and sees:</string>
+
+
+    <!-- COMPONENTS -->
+
+    <string name="roleNumber">ID</string>
+
+    <string name="chooseRoles">Zatwierdź\nwybrane role</string>
+    <string name="confirmAction">Zatwierdź\nakcję</string>
+
+
+    <!-- ACCESSIBILITY -->
+
+    <string name="rolePixelart">Pikselart roli</string>
+
+</resources>

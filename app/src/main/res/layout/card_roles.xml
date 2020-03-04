@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/card_role"
+
+    android:layout_width="96dp"
+    android:layout_height="96dp"
+
+    android:layout_margin="@dimen/role_image_holder_margin"
+
+    android:focusable="true"
+
+    android:background="@color/windowBackground"
+
+    app:cardBackgroundColor="#FF000000"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="0dp">
+
+    <RelativeLayout
+        android:id="@+id/relative_role"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_margin="@dimen/role_image_margin"
+
+        android:background="@color/windowBackground"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_role"
+
+            android:layout_width="@dimen/role_image_size"
+            android:layout_height="@dimen/role_image_size"
+
+            android:layout_gravity="center"
+
+            tools:src="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/text_role"
+
+            android:layout_width="@dimen/role_image_size"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@+id/image_role"
+
+            android:textSize="@dimen/role_text_size"
+            android:textColor="@color/text_fading"
+            android:textAlignment="center"
+            android:fontFamily="@font/unfunnyfont"
+
+            tools:text="Emerytowany Glina"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

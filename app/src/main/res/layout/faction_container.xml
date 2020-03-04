@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/linear_faction"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/grey_background_lighter"
+
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_faction"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="6dp"
+
+        android:background="@color/grey_background_darker"
+
+        android:textSize="@dimen/header_text_size"
+        android:fontFamily="@font/unfunnyfont"
+
+        tools:text="Neutralni"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyler_faction"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:padding="1dp"
+
+        android:layout_gravity="center_horizontal"
+
+        android:background="@color/grey_background_lighter"
+
+        android:scrollbars="none"
+        android:overScrollMode="never" />
+
+</LinearLayout>
